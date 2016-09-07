@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<sonar_policy version="1.0">
+
+
+
+    <default>
+        <first_launch_calendar_threshold gm="120" prerelease="7"/>
+        <cancel_calendar_threshold gm="120" prerelease="7"/>
+        <submit_calendar_threshold gm="180" prerelease="28"/>
+        <first_launch_usage_threshold gm="800" prerelease="1"/>
+        <cancel_usage_threshold gm="400" prerelease="1"/>
+        <submit_usage_threshold gm="800" prerelease="1"/>
+    </default>
+
+
+
+    <products gm_turn_off="false" prerelease_turn_off="false">
+
+       <product family="CS6" name="Adobe Captivate" version="6.*" gm_turn_off="false" prerelease_turn_off="false"/>
+
+        <product family="CS6" name="InDesign CS6" version="8.0" gm_turn_off="true" prerelease_turn_off="true"/>
+
+        <product family="CS6" name="Adobe Illustrator" version="16.*" gm_turn_off="true" prerelease_turn_off="true">
+
+            <cancel_calendar_threshold gm="120" prerelease="5"/>
+
+            <cancel_usage_threshold gm="400" prerelease="6"/>
+
+        </product>
+
+
+        <product family="CS7" name="InDesign CS7" version="9.*" gm_turn_off="false" prerelease_turn_off="false"/>
+
+        <product family="CS7" name="Adobe Illustrator" version="17.*" gm_turn_off="false" prerelease_turn_off="false"/>
+
+        <product family="CS7" name="Adobe Dreamweaver" version="13.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="28" prerelease="7"/>
+            <cancel_calendar_threshold gm="28" prerelease="7"/>
+            <submit_calendar_threshold gm="28" prerelease="28"/>
+        </product>
+
+        <product family="CS7" name="Flash Professional CS7" version="13.*" gm_turn_off="false" prerelease_turn_off="false"/>
+
+        <product family="CS7" name="Adobe Photoshop CS7" version="14.*" gm_turn_off="false" prerelease_turn_off="false"/>
+
+        <product family="CS7" name="Adobe Premiere Pro CS7" version="7.*" gm_turn_off="false" prerelease_turn_off="false"/>
+
+        <product family="CS7" name="Adobe Bridge" version="6.*" gm_turn_off="false" prerelease_turn_off="false"/>
+
+        <product family="CS7" name="Adobe Audition CS7" version="6.*" gm_turn_off="false" prerelease_turn_off="false"/>
+
+       <product family="CS7" name="After Effects CS7" version="12.*" gm_turn_off="false" prerelease_turn_off="false"/>
+
+        <product family="CS7" name="Adobe Captivate" version="7.*" gm_turn_off="false" prerelease_turn_off="false"/>
+
+
+
+        <product family="CC" name="InDesign CC" version="9.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+
+        <product family="CC" name="Adobe Illustrator" version="17.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+
+        <product family="CC" name="Adobe Dreamweaver" version="13.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="28" prerelease="7"/>
+            <cancel_calendar_threshold gm="28" prerelease="7"/>
+            <submit_calendar_threshold gm="28" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+
+
+        <product family="CC" name="Adobe Photoshop CC" version="14.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+
+        <product family="CC" name="Adobe Bridge" version="6.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+
+        <product family="CC" name="Adobe Audition" version="6.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+
+        <product family="CC" name="Adobe Premiere Pro CC" version="7.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+
+        <product family="CC" name="Flash Professional CC" version="13.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+
+        <product family="CC" name="After Effects CC" version="12.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+
+        <product family="Photoshop" name="Lightroom5" version="5.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+
+       <product family="Photoshop" name="Adobe Photoshop" version="14.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+
+       <product family="Elements" name="Photoshop Elements" version="12.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+
+
+
+       <product family="Elements" name="Adobe Premiere Elements" version="12.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+
+       <product family="Elements" name="Elements Organizer" version="12.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+
+
+
+       <product family="EdgeAnimate" name="EdgeAnimate" version="1.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+
+       <product family="EdgeAnimate" name="EdgeAnimate" version="2.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+
+       <product family="EdgeAnimate" name="EdgeAnimate" version="3.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+
+       <product family="Edge" name="Reflow" version="*.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+
+    
+       <product family="CC" name="Adobe Media Encoder CC" version="7.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+
+  	<product family="Muse" name="Muse" version="8.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+
+        <product family="Acrobat11" name="Exchange-Pro" version="11.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+        <product family="Acrobat11" name="Exchange-Base" version="11.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+        <product family="Acrobat11" name="Exchange-Pro3D" version="11.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+
+
+        <product family="Acrobat12" name="Exchange-Pro" version="12.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+        <product family="Acrobat12" name="Exchange-Base" version="12.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+        <product family="Acrobat12" name="Exchange-Pro3D" version="12.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="60" prerelease="7"/>
+            <cancel_calendar_threshold gm="60" prerelease="7"/>
+            <submit_calendar_threshold gm="90" prerelease="28"/>
+            <first_launch_usage_threshold gm="50" prerelease="1"/>
+            <cancel_usage_threshold gm="50" prerelease="1"/>
+            <submit_usage_threshold gm="50" prerelease="1"/>
+        </product>
+		
+        <product family="CS7" name="Adobe Captivate" version="*.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="30" prerelease="7"/>
+            <cancel_calendar_threshold gm="30" prerelease="7"/>
+            <submit_calendar_threshold gm="30" prerelease="28"/>
+            <first_launch_usage_threshold gm="40" prerelease="1"/>
+            <cancel_usage_threshold gm="40" prerelease="1"/>
+            <submit_usage_threshold gm="40" prerelease="1"/>
+        </product>
+		
+        <product family="Captivate" name="Adobe Presenter Orate" version="*.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="30" prerelease="7"/>
+            <cancel_calendar_threshold gm="30" prerelease="7"/>
+            <submit_calendar_threshold gm="30" prerelease="28"/>
+            <first_launch_usage_threshold gm="40" prerelease="1"/>
+            <cancel_usage_threshold gm="40" prerelease="1"/>
+            <submit_usage_threshold gm="40" prerelease="1"/>
+        </product>
+
+        <product family="Captivate" name="Adobe Presenter" version="*.*" gm_turn_off="false" prerelease_turn_off="false">
+            <first_launch_calendar_threshold gm="30" prerelease="7"/>
+            <cancel_calendar_threshold gm="30" prerelease="7"/>
+            <submit_calendar_threshold gm="30" prerelease="28"/>
+            <first_launch_usage_threshold gm="40" prerelease="1"/>
+            <cancel_usage_threshold gm="40" prerelease="1"/>
+            <submit_usage_threshold gm="40" prerelease="1"/>
+        </product>
+		
+    </products>
+
+
+
+</sonar_policy>
